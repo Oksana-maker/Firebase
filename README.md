@@ -5,3 +5,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+
+
+
+https://console.firebase.google.com/=> add project=> install npm firebase=> add file firebase.js=> go to Web app and copy code to firebase.js=> go in database and create data.
