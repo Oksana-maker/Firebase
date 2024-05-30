@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/<username>/<repository>.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'npm run build' // замените на ваши команды сборки
+            }
+        }
+        // stage('Test') {
+        //     steps {
+        //         sh 'make test' // замените на ваши команды тестирования
+        //     }
+        // }
+    }
+}
